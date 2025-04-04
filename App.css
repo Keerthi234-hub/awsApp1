@@ -1,0 +1,48 @@
+.layout {
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  padding: 24px;
+  background: #fff;
+  min-height: 280px;
+}
+
+.search-form {
+  margin-bottom: 24px;
+  background: #f0f2f5;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 24px;
+}
+
+.ant-card-cover img {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .search-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  
+  .map-container {
+    height: 300px;
+  }
+}
